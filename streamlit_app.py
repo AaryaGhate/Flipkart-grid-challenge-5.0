@@ -10,6 +10,7 @@ data = pd.read_csv("fashion_products.csv")
 interaction_matrix = data.pivot_table(index='User ID', columns='Product ID', values='Rating', fill_value=0)
 product_similarity = cosine_similarity(interaction_matrix.T)
 
+
 # Function to get product recommendations based on product name and category
 def get_recommendations(user_id, product_name, category, interaction_matrix, product_similarity, num_recommendations=50):
     user_interactions = interaction_matrix.loc[user_id].values
