@@ -12,7 +12,7 @@
                    
       - Swapnil Adsul
         
-      - Aarya Ghate
+      - [Aarya Ghate](https://github.com/AaryaGhate)
   
 ## Problem Statement: Personalized Product Recommendations
    The aim is to enhance user experience by implementing a personalized product ranking system.
